@@ -1,0 +1,5 @@
+- name: install nginx and start nginx
+  hosts: localhost
+  become: yes
+  roles:
+  - nginx
